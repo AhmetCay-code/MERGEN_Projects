@@ -1,0 +1,10 @@
+HomeTeam,AwayTeam,label,probablity,truth
+Eintracht Frankfurt,Freiburg,under,0.56,under
+Bayer Leverkusen,Heidenheim,over,0.66,over
+Werder Bremen,Köln,neutral,0.45-0.62,over
+Augsburg,Mainz 05,neutral,0.45-0.62,over
+Mönchengladbach,RB Leipzig,neutral,0.45-0.62,under
+Union Berlin,Hoffenheim,neutral,0.45-0.62,under
+Borussia Dortmund,Wolfsburg,neutral,0.45-0.62,under
+Bayern München,Bochum,over,0.73,over
+Stuttgart,Darmstadt 98,neutral,0.45-0.62,over

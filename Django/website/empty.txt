@@ -1,0 +1,260 @@
+ <table>
+            <tr>
+              <th>England {% load static %} <img src="{% static "website/media/england_flag.png" %}" alt="England Flag" class="center"  width="40" height="25" /> </th>
+              <th>France {% load static %} <img src="{% static "website/media/france_flag.png" %}" alt="France Flag" class="center"  width="40" height="25" /> </th>
+            </tr>
+            <tr>
+              <td style='text-align:center; vertical-align:middle'><button data-section="1">Match 1</button></td>
+              <td style='text-align:center; vertical-align:middle'><button data-section="2">Match 2</button></td>
+              
+            </tr>
+            <tr>
+                <td style='text-align:center; vertical-align:middle'><button data-section="3">Match 3</button></td>
+                <td style='text-align:center; vertical-align:middle'><button data-section="4">Match 4</button></td>
+                
+            </tr>
+            <tr>
+                <td style='text-align:center; vertical-align:middle'><button data-section="5">Match 5</button></td>
+                <td style='text-align:center; vertical-align:middle'><button data-section="6">Match 6</button></td>
+                
+            </tr>
+            <tr>
+                <td style='text-align:center; vertical-align:middle'><button data-section="7">Match 7</button></td>
+                <td style='text-align:center; vertical-align:middle'><button data-section="8">Match 8</button></td>
+                
+            </tr>
+            <tr>
+                <td style='text-align:center; vertical-align:middle'><button data-section="9">Match 9</button></td>
+                <td style='text-align:center; vertical-align:middle'><button data-section="10">Match 10</button></td>
+            </tr>
+          </table>
+
+
+<table>
+            <tr>
+              <th>England {% load static %} <img src="{% static "website/media/england_flag.png" %}" alt="England Flag" class="center"  width="40" height="25" /> </th>
+              <th>France {% load static %} <img src="{% static "website/media/france_flag.png" %}" alt="France Flag" class="center"  width="40" height="25" /> </th>
+              <th>Italy {% load static %} <img src="{% static "website/media/italy_flag.png" %}" alt="Italy Flag" class="center"  width="40" height="25" /> </th>
+              <th>Germany {% load static %} <img src="{% static "website/media/germany_flag.png" %}" alt="Germany Flag" class="center"  width="40" height="25" /> </th>
+              <th>Spain {% load static %} <img src="{% static "website/media/spain_flag.png" %}" alt="Spain Flag" class="center"  width="40" height="25" /> </th>
+            </tr>
+
+            <tr>
+              <td style='text-align:center; vertical-align:middle'><button data-section="sections2" data-type="10">Match 1</button></td>
+              <td style='text-align:center; vertical-align:middle'><button data-section="sections1" data-type="1">Match 1</button></td>
+              <td style='text-align:center; vertical-align:middle'><button data-section="sections3" data-type="5">Match 1</button></td>
+              <td style='text-align:center; vertical-align:middle'><button data-section="sections5" data-type="7">Match 1</button></td>
+              <td style='text-align:center; vertical-align:middle'><button data-section="sections4" data-type="9">Match 1</button></td>
+
+
+            </tr>
+            <tr>
+                <td style='text-align:center; vertical-align:middle'><button data-section="sections3" data-type="5">Match 2</button></td>
+                <td style='text-align:center; vertical-align:middle'><button data-section="sections4" data-type="9">Match 2</button></td>
+                <td style='text-align:center; vertical-align:middle'><button data-section="sections1" data-type="7">Match 2</button></td>
+                <td style='text-align:center; vertical-align:middle'><button data-section="sections5" data-type="1">Match 2</button></td>
+                <td style='text-align:center; vertical-align:middle'><button data-section="sections2" data-type="10">Match 2</button></td>
+            </tr>
+          </table>
+
+
+
+
+
+
+
+           for (let i = 0; i < rows; i++) {
+            const row = document.createElement('tr');
+            for (let j = 0; j < cols; j++) {
+                if (i=0){
+                const cell = document.creatElement('th');
+            } else{
+                const cell = document.createElement('td');
+                const button = document.createElement('button');
+                button.textContent = `Row ${i+1}, Col ${j+1}`;
+                cell.appendChild(button);
+                row.appendChild(cell);
+            }
+              
+            }
+            tableBody.appendChild(row);
+          }
+
+
+
+<h2>ABOUT</h2>
+            
+
+                <h3>We are here for you. Our development phase is still in progress.
+                    This site is an artificial intelligence prediction site for football betting.
+                    New leagues and matches will be added every day at midnight.
+                    We hope you will be satisfied with the application and continue to use it.</h3> 
+            
+            
+
+            <h1> Goodbye until we meet again!</h1>
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4004016694291338"
+     crossorigin="anonymous"></script>
+
+     <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
+
+     <script defer src="https://pyscript.net/latest/pyscript.js"></script>
+
+    {% load static %}
+    <link rel="icon"href="{% static 'website/media/favicon.ico' %}">
+
+     <style>
+                         img {
+                              display: block;
+                              margin-left: auto;
+                              margin-right: auto;
+                            }
+
+                         h1 {text-align: center;
+                             font-size: 3em;
+
+                         }
+                         h2 {text-align: left;
+                             font-size: 2em;
+                             margin-left:30%;
+                             margin-right:30%;
+
+                         }
+                         h3 {text-align: justify;
+                             font-size: 1em;
+                             margin-left:30%;
+                             margin-right:30%;
+
+                         }
+
+                        .myDiv {
+                          border: 4px outset #3498DB;
+                          font-size:2em;
+                          font-weight:bold;
+                          background-color: aquamarine;
+                          text-align: center;
+                          margin-left:30%;
+                          margin-right:30%;
+                        }
+
+
+
+                        table {
+                          border-collapse: collapse;
+                          width: 40%;
+                          border: 5px solid #3498DB;
+                          margin-left:30%;
+                          margin-right:30%;
+                          text-align: center;
+                          background-color: #566573;
+                        }
+
+                        th, td {
+                          text-align: center;
+                          padding: 30px;
+                        }
+    </style>
+
+
+        <title>Mergen For Wisdom</title>
+
+        <script>
+
+            //  This function communicates with django (backend)
+
+            
+
+
+                function showSection(section,type) {
+                    fetch(`/${section}/${type}`)
+                    .then(response => response.text())
+                    .then(text => {
+                        console.log(text);
+                        document.querySelector('#content').innerHTML = text;
+                    });
+                }
+
+                document.addEventListener("DOMContentLoaded", function() {
+                    // showSection4 için butonlar
+                    document.querySelectorAll('button').forEach(button => {
+                        button.onclick = function() {
+                            showSection(button.dataset.section,button.dataset.type );
+                        } } ) ; } )
+
+
+
+        </script>
+
+        <py-script>
+            from datetime import date
+            today = date.today()
+            # dd/mm/YY
+            d1 = today.strftime("%d/%m/%Y")
+            pyscript.write('todaydate',d1)
+        </py-script>
+
+    </head>
+    <body style="background-color: #EBDEF0;">
+
+        <h1>MERGEN.AI</h1>
+
+        {% load static %} <img src="{% static "website/media/mergen_logo.jpg" %}" alt="Mergen Logo" class="center" />
+
+        <h1>Welcome! Predictions for Today </h1>
+        <h1><span id='todaydate'> </span>  </h1>
+
+        <h2> You'll win every day from now on </h2>
+        <h2> Let's start! </h2>
+
+        <table>
+            <tr>
+                <th>England {% load static %} <img src="{% static "website/media/england_flag.png" %}" alt="England Flag" class="center"  width="40" height="25" /> </th>
+              <th>France {% load static %} <img src="{% static "website/media/france_flag.png" %}" alt="France Flag" class="center"  width="40" height="25" /> </th>
+              <th>Italy {% load static %} <img src="{% static "website/media/italy_flag.png" %}" alt="Italy Flag" class="center"  width="40" height="25" /> </th>
+              <th>Germany {% load static %} <img src="{% static "website/media/germany_flag.png" %}" alt="Germany Flag" class="center"  width="40" height="25" /> </th>
+              <th>Spain {% load static %} <img src="{% static "website/media/spain_flag.png" %}" alt="Spain Flag" class="center"  width="40" height="25" /> </th>
+            </tr>
+            <script>
+               for (var i = 2; i <= 11; i++) {
+                    document.write('<tr>');
+
+                        for (var j = 1; j <= 5; j++) {
+                            document.write(`<td style='text-align:center; vertical-align:middle'><button data-section='sections${j}' data-type='${(i-1)}'>Match ${(i-1)}</button></td>`);
+
+                        }
+
+                        document.write('</tr>');
+                        }
+            </script>
+          </table>
+
+        <!-- Contents loaded from server is inserted here by javascript -->
+        <div id="content" class="myDiv">
+
+        </div >
+
+        <h2>ABOUT</h2>
+
+        <h3>We are here for you. Our development phase is still in progress.
+        This site is an artificial intelligence prediction site for football betting.
+        New leagues and matches will be added every day at midnight.
+        We hope you will be satisfied with the application and continue to use it.
+
+        <h1> Goodbye until we meet again!</h1>
+
+    </body>
+</html>

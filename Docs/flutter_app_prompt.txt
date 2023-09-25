@@ -1,0 +1,11 @@
+Flutter ile takimlarin son 5 haftalik performanlaslarina göre 2.5 gol alt/üst tahminleri yapan bir uygulama yapacagim. 
+Tahminleyici olarak calistiracagim yapay zeka modeli hazir durumda ve python ile kodlandi. 
+Maclarin bilgilerini ceken data miner da python ile yazildi ve csv dosyasi halinde o güne ait maclari ve bahis oranlarini topluyor.
+Flutter app de istediklerim su sekilde:
+Giris sayfasi : Firebase ile olusturulmus login sayfasi
+---Anasayfa: Her biri dikdörtgen icinde maclar, oranlari ve önerilen oran olacak. Her dikdörtgenin yaninda kalp olacak.
+---Bookmark: Kalplere tiklayarak istedigimiz maclari daha sonra kullanmak icin kaydedebilmeliyiz.
+---Gecmis Sonuclar: Eski maclar, verdigimiz öneriler ve bu önerilerin dogruluk durumunu icerecek.
+---Premium: Free kullanicilar günlük yalnizca 3 tahmini görme hakki olacak. Premimum sayfasinda abonelik teklifleri olacak ve satis yapilacak. Abone olanlar sinirsiz erisime sahip olacak.
+
+Bu özelliklere sahip flutter app'inin dosya agacini olustur.

@@ -1,0 +1,48 @@
+*20 km circle football clubs around Munich
+
+*Bayern Munich - Tier 1 - service@fcbayern.de
+*Türkgücü München - Tier 3 - info@turkgucu.de
+*TSV 1860 Munich - Tier 3 - info@tsv1860.de
+*SV Heimstetten - Tier 4 - vorstand@sv-heimstetten.de
+*FC Bayern Munich II - Tier 4 - service@fcbayern.de
+*SpVgg Unterhaching - Tier 4 - info@spvggunterhaching.de
+*VfB Hallbergmoos - Tier 5 - Fussball-Abteilungsleitung@vfb-hallbergmoos.de
+*TSV Dachau 1865 - Tier 5 - Info@TsvDachau1865.de
+*VfR Garching - Tier 5 - geschaeftsstelle@vfr-garching.de
+*FC Ismaning - Tier 5 - gs@fcismaning.de
+*TSV 1860 München II - Tier 5 - info@tsv1860.de
+*SV Pullach - Tier 5 - info@svpullach.de
+*FC Deisenhofen - Tier 5 - info@fcdeisenhofen
+
+Focus Area:
+
+*Coaching
+	+Scouting 
+		-Predicting Trejectory
+		-Ranking based on attributes scores
+	+Real Time Match Analysis
+		-Lines between players based on position 
+		-Detect Weak Zones of away teams (similar to heatmap)
+		-Use camera with in built model
+	+End-game analysis
+		-Predicting Trejectory
+*Media
+	+Visualization
+	+Score Likelihood RT	
+*Gambling
+	+Bet prediction for indivual user with mobile app and website
+
+Cold Mailing:
+
+*Send mail with small demo => 
+*Interview => Create Questions for needs
+*
+*
+
+Investment:
+
+*TUM Ventures
+*Exists
+
+
+
